@@ -8,6 +8,7 @@ This project is a simple leadership board to know how to use.
 - CSS
 - JS
 - Webpack config
+- ES6
 
 ## Getting Started
 
