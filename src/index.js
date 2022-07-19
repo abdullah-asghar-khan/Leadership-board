@@ -6,7 +6,6 @@ import { setScore, fetchScore } from './modules/data.js';
 renderRecentScore();
 renderAddScore();
 
-
 const gameId = 'mwS97TlFoKbsfoq1MUzG';
 
 const displayScore = (array) => {
