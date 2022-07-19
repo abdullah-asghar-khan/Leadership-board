@@ -31,10 +31,12 @@ header {
 
 .scores {
   list-style: none;
+  min-height: 18.75rem;
 }
 
 .scores li {
   padding: 0.2rem 0.45rem;
+  position: relative;
 }
 
 .scores > li:nth-child(2n) {
