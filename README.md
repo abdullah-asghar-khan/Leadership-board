@@ -10,6 +10,11 @@ This project is a simple leadership board to know how to use.
 - Webpack config
 - ES6
 
+## Live demp
+
+[Live Demo Link](https://abdullah2213565.github.io/Leadership-board/dist/)
+
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
