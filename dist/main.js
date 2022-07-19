@@ -546,9 +546,9 @@ ___CSS_LOADER_EXPORT___.push([module.id, "* {\r\n  margin: 0;\r\n  padding: 0;\r
     <section class="add-score-section">
                 <form action="" class="add-score-form">
                     <h3>Add your score</h3>
-                    <input type="text" placeholder="Your name" class="input-el"> <br>
-                    <input type="text" placeholder="Your score" class="input-el"> <br>
-                    <button type="button" class="btn add-score-btn">Submit</button>
+                    <input type="text" placeholder="Your name" id="name-input" class="input-el"> <br>
+                    <input type="number" placeholder="Your score" id="score-input" class="input-el"> <br>
+                    <button type="submit" class="btn add-score-btn">Submit</button>
                 </form>
             </section>`;
     
@@ -557,6 +557,41 @@ ___CSS_LOADER_EXPORT___.push([module.id, "* {\r\n  margin: 0;\r\n  padding: 0;\r
     };
     
     /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (renderAddScore);
+
+  /***/ }),
+
+  /***/ "./src/modules/data.js":
+  /*!*****************************!*\
+    !*** ./src/modules/data.js ***!
+    \*****************************/
+  /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+  
+  __webpack_require__.r(__webpack_exports__);
+  /* harmony export */ __webpack_require__.d(__webpack_exports__, {
+  /* harmony export */   "fetchScore": () => (/* binding */ fetchScore),
+  /* harmony export */   "setScore": () => (/* binding */ setScore)
+  /* harmony export */ });
+  const setScore = async (data, id) => {
+    const response = await fetch(`https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${id}/scores`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data),
+    });
+    return response.json();
+  };
+  
+  const fetchScore = async (id) => {
+    const response = await fetch(`https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${id}/scores`, {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    });
+    return response.json();
+  };
+  
     
     /***/ }),
     
