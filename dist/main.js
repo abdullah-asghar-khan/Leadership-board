@@ -21,7 +21,7 @@
     
     var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
     // Module
-    ___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nheader {\n  padding: 1rem 1rem;\n  margin: 0 0 1rem 0;\n}\n\n#content {\n  padding: 0 2rem;\n  display: flex;\n}\n\n.score-section {\n  flex-grow: 1;\n  margin-right: 1rem;\n}\n\n.score-section div:first-child {\n  display: flex;\n  justify-content: space-between;\n}\n\n.score-wrap {\n  border: 2px solid black;\n  margin: 1rem 0;\n}\n\n.scores {\n  list-style: none;\n}\n\n.scores li {\n  padding: 0.2rem 0.45rem;\n}\n\n.scores > li:nth-child(2n) {\n  background-color: gray;\n}\n\n.add-score-section {\n  flex-grow: 1;\n  margin-left: 1rem;\n  padding: 0.3rem 0.75rem;\n}\n\n.add-score-form {\n  display: flex;\n  flex-direction: column;\n}\n\n.add-score-form h3 {\n  margin-bottom: 1rem;\n}\n\n.input-el {\n  padding: 0.4rem;\n  color: black;\n  border: 2px solid black;\n}\n\n.add-score-btn {\n  width: 30%;\n  align-self: flex-end;\n}\n\n.btn {\n  padding: 0.2rem;\n  position: relative;\n  border: 1.5px solid black;\n}\n\n.btn::after {\n  content: \"\";\n  position: absolute;\n  background-color: black;\n  height: 100%;\n  width: 100%;\n  padding: 0.1rem;\n  z-index: -1;\n  top: 0.1rem;\n  left: 0.1rem;\n}\n", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA;EACE,SAAS;EACT,UAAU;EACV,sBAAsB;AACxB;;AAEA;EACE,kBAAkB;EAClB,kBAAkB;AACpB;;AAEA;EACE,eAAe;EACf,aAAa;AACf;;AAEA;EACE,YAAY;EACZ,kBAAkB;AACpB;;AAEA;EACE,aAAa;EACb,8BAA8B;AAChC;;AAEA;EACE,uBAAuB;EACvB,cAAc;AAChB;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,uBAAuB;AACzB;;AAEA;EACE,sBAAsB;AACxB;;AAEA;EACE,YAAY;EACZ,iBAAiB;EACjB,uBAAuB;AACzB;;AAEA;EACE,aAAa;EACb,sBAAsB;AACxB;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,eAAe;EACf,YAAY;EACZ,uBAAuB;AACzB;;AAEA;EACE,UAAU;EACV,oBAAoB;AACtB;;AAEA;EACE,eAAe;EACf,kBAAkB;EAClB,yBAAyB;AAC3B;;AAEA;EACE,WAAW;EACX,kBAAkB;EAClB,uBAAuB;EACvB,YAAY;EACZ,WAAW;EACX,eAAe;EACf,WAAW;EACX,WAAW;EACX,YAAY;AACd","sourcesContent":["* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nheader {\n  padding: 1rem 1rem;\n  margin: 0 0 1rem 0;\n}\n\n#content {\n  padding: 0 2rem;\n  display: flex;\n}\n\n.score-section {\n  flex-grow: 1;\n  margin-right: 1rem;\n}\n\n.score-section div:first-child {\n  display: flex;\n  justify-content: space-between;\n}\n\n.score-wrap {\n  border: 2px solid black;\n  margin: 1rem 0;\n}\n\n.scores {\n  list-style: none;\n}\n\n.scores li {\n  padding: 0.2rem 0.45rem;\n}\n\n.scores > li:nth-child(2n) {\n  background-color: gray;\n}\n\n.add-score-section {\n  flex-grow: 1;\n  margin-left: 1rem;\n  padding: 0.3rem 0.75rem;\n}\n\n.add-score-form {\n  display: flex;\n  flex-direction: column;\n}\n\n.add-score-form h3 {\n  margin-bottom: 1rem;\n}\n\n.input-el {\n  padding: 0.4rem;\n  color: black;\n  border: 2px solid black;\n}\n\n.add-score-btn {\n  width: 30%;\n  align-self: flex-end;\n}\n\n.btn {\n  padding: 0.2rem;\n  position: relative;\n  border: 1.5px solid black;\n}\n\n.btn::after {\n  content: \"\";\n  position: absolute;\n  background-color: black;\n  height: 100%;\n  width: 100%;\n  padding: 0.1rem;\n  z-index: -1;\n  top: 0.1rem;\n  left: 0.1rem;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\nheader {\r\n  padding: 1rem 1rem;\r\n  margin: 0 0 1rem 0;\r\n}\r\n\r\n#content {\r\n  padding: 0 2rem;\r\n  display: flex;\r\n}\r\n\r\n.score-section {\r\n  flex-grow: 1;\r\n  margin-right: 1rem;\r\n}\r\n\r\n.score-section div:first-child {\r\n  display: flex;\r\n  justify-content: space-between;\r\n}\r\n\r\n.score-wrap {\r\n  border: 2px solid black;\r\n  margin: 1rem 0;\r\n}\r\n\r\n.scores {\r\n  list-style: none;\r\n  min-height: 18.75rem;\r\n}\r\n\r\n.scores li {\r\n  padding: 0.2rem 0.45rem;\r\n}\r\n\r\n.scores > li:nth-child(2n) {\r\n  background-color: gray;\r\n}\r\n\r\n.add-score-section {\r\n  flex-grow: 1;\r\n  margin-left: 1rem;\r\n  padding: 0.3rem 0.75rem;\r\n}\r\n\r\n.add-score-form {\r\n  display: flex;\r\n  flex-direction: column;\r\n  position: relative;\r\n}\r\n\r\n.add-score-form h3 {\r\n  margin-bottom: 1rem;\r\n}\r\n\r\n.input-el {\r\n  padding: 0.4rem;\r\n  color: black;\r\n  border: 2px solid black;\r\n}\r\n\r\n.add-score-btn {\r\n  width: 30%;\r\n  align-self: flex-end;\r\n}\r\n\r\n.btn {\r\n  padding: 0.2rem;\r\n  position: relative;\r\n  border: 1.5px solid black;\r\n}\r\n\r\n.btn::after {\r\n  content: \"\";\r\n  position: absolute;\r\n  background-color: black;\r\n  height: 100%;\r\n  width: 100%;\r\n  padding: 0.1rem;\r\n  z-index: -1;\r\n  top: 0.1rem;\r\n  left: 0.1rem;\r\n}\r\n\r\n.add-message,\r\n.empty-message {\r\n  color: rgb(0, 0, 0);\r\n  padding: 0.31rem 1rem;\r\n  position: absolute;\r\n  top: -2px;\r\n  left: 140px;\r\n}\r\n\r\n.add-message {\r\n  background-color: greenyellow;\r\n}\r\n\r\n.empty-message {\r\n  background-color: rgb(255, 89, 47);\r\n  color: aliceblue;\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA;EACE,SAAS;EACT,UAAU;EACV,sBAAsB;AACxB;;AAEA;EACE,kBAAkB;EAClB,kBAAkB;AACpB;;AAEA;EACE,eAAe;EACf,aAAa;AACf;;AAEA;EACE,YAAY;EACZ,kBAAkB;AACpB;;AAEA;EACE,aAAa;EACb,8BAA8B;AAChC;;AAEA;EACE,uBAAuB;EACvB,cAAc;AAChB;;AAEA;EACE,gBAAgB;EAChB,oBAAoB;AACtB;;AAEA;EACE,uBAAuB;AACzB;;AAEA;EACE,sBAAsB;AACxB;;AAEA;EACE,YAAY;EACZ,iBAAiB;EACjB,uBAAuB;AACzB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,kBAAkB;AACpB;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,eAAe;EACf,YAAY;EACZ,uBAAuB;AACzB;;AAEA;EACE,UAAU;EACV,oBAAoB;AACtB;;AAEA;EACE,eAAe;EACf,kBAAkB;EAClB,yBAAyB;AAC3B;;AAEA;EACE,WAAW;EACX,kBAAkB;EAClB,uBAAuB;EACvB,YAAY;EACZ,WAAW;EACX,eAAe;EACf,WAAW;EACX,WAAW;EACX,YAAY;AACd;;AAEA;;EAEE,mBAAmB;EACnB,qBAAqB;EACrB,kBAAkB;EAClB,SAAS;EACT,WAAW;AACb;;AAEA;EACE,6BAA6B;AAC/B;;AAEA;EACE,kCAAkC;EAClC,gBAAgB;AAClB","sourcesContent":["* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\nheader {\r\n  padding: 1rem 1rem;\r\n  margin: 0 0 1rem 0;\r\n}\r\n\r\n#content {\r\n  padding: 0 2rem;\r\n  display: flex;\r\n}\r\n\r\n.score-section {\r\n  flex-grow: 1;\r\n  margin-right: 1rem;\r\n}\r\n\r\n.score-section div:first-child {\r\n  display: flex;\r\n  justify-content: space-between;\r\n}\r\n\r\n.score-wrap {\r\n  border: 2px solid black;\r\n  margin: 1rem 0;\r\n}\r\n\r\n.scores {\r\n  list-style: none;\r\n  min-height: 18.75rem;\r\n}\r\n\r\n.scores li {\r\n  padding: 0.2rem 0.45rem;\r\n}\r\n\r\n.scores > li:nth-child(2n) {\r\n  background-color: gray;\r\n}\r\n\r\n.add-score-section {\r\n  flex-grow: 1;\r\n  margin-left: 1rem;\r\n  padding: 0.3rem 0.75rem;\r\n}\r\n\r\n.add-score-form {\r\n  display: flex;\r\n  flex-direction: column;\r\n  position: relative;\r\n}\r\n\r\n.add-score-form h3 {\r\n  margin-bottom: 1rem;\r\n}\r\n\r\n.input-el {\r\n  padding: 0.4rem;\r\n  color: black;\r\n  border: 2px solid black;\r\n}\r\n\r\n.add-score-btn {\r\n  width: 30%;\r\n  align-self: flex-end;\r\n}\r\n\r\n.btn {\r\n  padding: 0.2rem;\r\n  position: relative;\r\n  border: 1.5px solid black;\r\n}\r\n\r\n.btn::after {\r\n  content: \"\";\r\n  position: absolute;\r\n  background-color: black;\r\n  height: 100%;\r\n  width: 100%;\r\n  padding: 0.1rem;\r\n  z-index: -1;\r\n  top: 0.1rem;\r\n  left: 0.1rem;\r\n}\r\n\r\n.add-message,\r\n.empty-message {\r\n  color: rgb(0, 0, 0);\r\n  padding: 0.31rem 1rem;\r\n  position: absolute;\r\n  top: -2px;\r\n  left: 140px;\r\n}\r\n\r\n.add-message {\r\n  background-color: greenyellow;\r\n}\r\n\r\n.empty-message {\r\n  background-color: rgb(255, 89, 47);\r\n  color: aliceblue;\r\n}\r\n"],"sourceRoot":""}]);
     // Exports
     /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
     
@@ -546,9 +546,9 @@
     <section class="add-score-section">
                 <form action="" class="add-score-form">
                     <h3>Add your score</h3>
-                    <input type="text" placeholder="Your name" class="input-el"> <br>
-                    <input type="text" placeholder="Your score" class="input-el"> <br>
-                    <button type="button" class="btn add-score-btn">Submit</button>
+                    <input type="text" placeholder="Your name" id="name-input" class="input-el"> <br>
+                    <input type="number" placeholder="Your score" id="score-input" class="input-el"> <br>
+                    <button type="submit" class="btn add-score-btn">Submit</button>
                 </form>
             </section>`;
     
@@ -557,6 +557,41 @@
     };
     
     /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (renderAddScore);
+
+  /***/ }),
+
+  /***/ "./src/modules/data.js":
+  /*!*****************************!*\
+    !*** ./src/modules/data.js ***!
+    \*****************************/
+  /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+  
+  __webpack_require__.r(__webpack_exports__);
+  /* harmony export */ __webpack_require__.d(__webpack_exports__, {
+  /* harmony export */   "fetchScore": () => (/* binding */ fetchScore),
+  /* harmony export */   "setScore": () => (/* binding */ setScore)
+  /* harmony export */ });
+  const setScore = async (data, id) => {
+    const response = await fetch(`https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${id}/scores`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data),
+    });
+    return response.json();
+  };
+  
+  const fetchScore = async (id) => {
+    const response = await fetch(`https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${id}/scores`, {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    });
+    return response.json();
+  };
+  
     
     /***/ }),
     
@@ -576,18 +611,11 @@
     <section class="score-section">
                 <div>
                     <h3 class="score-header">Recent scores</h3>
-                    <button type="button" class="btn">Refresh</button>
+                    <button type="button" class="btn btn-refresh">Refresh</button>
                 </div>
                 <div class="score-wrap">
-                    <ul class="scores">
-                        <li>Name: 100</li>
-                        <li>Name: 20</li>
-                        <li>Name: 50</li>
-                        <li>Name: 78</li>
-                        <li>Name: 125</li>
-                        <li>Name: 77</li>
-                        <li>Name: 42</li>
-                    </ul>
+                  <ul id="scores-board" class="scores">
+                  </ul>
                 </div>
             </section>`;
     
@@ -683,6 +711,7 @@
     /* harmony import */ var _modules_addScore_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/addScore.js */ "./src/modules/addScore.js");
     /* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style.css */ "./src/style.css");
     
+    /* harmony import */ var _modules_data_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/data.js */ "./src/modules/data.js");
     
     
     
