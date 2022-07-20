@@ -1,6 +1,5 @@
 import renderRecentScore from './modules/recentScore.js';
 import renderAddScore from './modules/addScore.js';
-import themeEvent from './modules/theme.js';
 import './style.css';
 import './css/recentScore.css';
 import './css/form.css';
@@ -8,7 +7,6 @@ import { setScore, fetchScore } from './modules/data.js';
 
 renderRecentScore();
 renderAddScore();
-themeEvent();
 
 const gameId = 'mwS97TlFoKbsfoq1MUzG';
 
