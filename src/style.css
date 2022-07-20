@@ -46,15 +46,7 @@ body {
   display: flex;
 }
 
-.trophy .iconify {
-  margin-right: 20px;
-}
 
-.header button {
-  background-color: var(--dark);
-  outline: none;
-  border: none;
-}
 
 .header button:focus {
   outline: auto;
@@ -117,9 +109,4 @@ body {
 
 .add-message {
   background-color: greenyellow;
-}
-
-.empty-message {
-  background-color: rgb(255, 89, 47);
-  color: aliceblue;
 }

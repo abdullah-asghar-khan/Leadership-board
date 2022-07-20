@@ -8,7 +8,7 @@ const recentScore = `
             </div>
             <div class="score-wrap">
                 <ul id="scores-board" class="scores">
-                    
+
                 </ul>
             </div>
         </section>`;
