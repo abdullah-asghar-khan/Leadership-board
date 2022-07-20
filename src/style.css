@@ -43,6 +43,10 @@ header {
   position: relative;
 }
 
+.scores > li:nth-child(2n) {
+  background-color: var(--lightDeepPurple);
+}
+
 .score-section .score-wrap ul li:nth-child(even) {
   background-color: gray;
 }
@@ -113,10 +117,6 @@ header {
   display: flex;
   padding: 0.2rem 0.45rem;
   background-color: var(--lightpurple);
-}
-
-.scores > li:nth-child(2n) {
-  background-color: var(--lightDeepPurple);
 }
 
 .shield {
