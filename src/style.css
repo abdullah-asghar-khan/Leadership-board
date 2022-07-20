@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: green;
+}
+
 header {
   padding: 1rem 1rem;
   margin: 0 0 1rem 0;
@@ -40,6 +44,10 @@ header {
 }
 
 .scores > li:nth-child(2n) {
+  background-color: var(--lightDeepPurple);
+}
+
+.score-section .score-wrap ul li:nth-child(even) {
   background-color: gray;
 }
 
@@ -103,4 +111,28 @@ header {
 .empty-message {
   background-color: rgb(255, 89, 47);
   color: aliceblue;
+}
+
+.player {
+  display: flex;
+  padding: 0.2rem 0.45rem;
+  background-color: var(--lightpurple);
+}
+
+.shield {
+  font-size: 25px;
+  color: var(--dark1);
+  margin-right: 10px;
+}
+
+.player-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.player-name h4,
+.player-name p {
+  overflow-wrap: break-word;
 }
