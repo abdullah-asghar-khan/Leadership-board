@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: green;
+}
+
 header {
   padding: 1rem 1rem;
   margin: 0 0 1rem 0;
@@ -39,9 +43,10 @@ header {
   position: relative;
 }
 
-.scores > li:nth-child(2n) {
+.score-section .score-wrap ul li:nth-child(even) {
   background-color: gray;
 }
+
 
 .add-score-section {
   flex-grow: 1;
@@ -104,7 +109,6 @@ header {
   background-color: rgb(255, 89, 47);
   color: aliceblue;
 }
-
 
 .add-score-section {
   flex-grow: 1;
